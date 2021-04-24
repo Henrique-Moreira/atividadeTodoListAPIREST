@@ -10,6 +10,8 @@ import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
+import lombok.Data;
+
 @Entity
 public class TodoListItem implements Serializable{
 	private static final long serialVersionUID = 1L;
